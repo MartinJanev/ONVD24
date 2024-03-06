@@ -1,0 +1,81 @@
+hr {
+    border: 0;
+    height: 1px;
+    background: #333 linear-gradient(to right, #ccc, #333, #ccc);
+}
+
+body {
+    background-color: #ffe4c4;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    font-size: larger;
+    border: 3px solid black;
+    text-align: left;
+    padding: 8px;
+}
+
+
+tr:nth-child(even) {
+    color: #d5d5d5;
+    background-color: #424242;
+}
+
+.important {
+    text-transform: uppercase;
+}
+
+.important {
+    color: blue;
+}
+
+.admittance {
+    color: red;
+    font-weight: bold;
+}
+
+.social {
+    background-color: indianred;
+}
+
+.social p {
+    background: orange !important;
+    font-size: larger;
+    color: red;
+}
+
+.tooltip {
+    style: bold;
+    color: green;
+}
+
+#WinnieLink:link {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+#WinnieLink:visited {
+    color: blue;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+#WinnieLink:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+#WinnieLink:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+}
+

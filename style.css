@@ -1,0 +1,28 @@
+.important {
+    text-transform: uppercase;
+}
+
+h1 {
+    text-align: center;
+}
+
+.important {
+    color: blue;
+}
+
+.admittance {
+    color: red;
+}
+
+.social {
+    background-color: transparent;
+}
+
+.tooltip {
+    style: bold;
+    color: green;
+}
+
+.ikonostas{
+    background-color: green;
+}
