@@ -6,58 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WEB</title>
     <link rel="icon" type="image/x-icon" href="img/web.ico">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style/style.css">
 </head>
 <body>
 
-<p align="center"><img src="img/workplace.jpg" alt="Workplace" usemap="#workmap"></p>
+<nav id="navbar">
+    <a href="http://martinjanev.github.io">Web Page</a>
+    <a href="https://github.com/MartinJanev/MartinJanev">Github Profile</a>
+</nav>
 
-<map name="workmap">
-    <area shape="rect" coords="34,44,270,350" alt="Computer" href="https://en.wikipedia.org/wiki/Personal_computer">
-    <area shape="rect" coords="290,172,333,250" alt="Phone" href="https://en.wikipedia.org/wiki/Mobile_phone">
-    <area shape="circle" coords="337,300,44" alt="Coffee" href="https://en.wikipedia.org/wiki/Coffee">
-</map>
-
-<table>
-    <tr>
-        <th>Company</th>
-        <th>Contact</th>
-        <th>Country</th>
-    </tr>
-    <tr>
-        <td>Alfreds Futterkiste</td>
-        <td>Maria Anders</td>
-        <td>Germany</td>
-    </tr>
-    <tr>
-        <td>Centro comercial Moctezuma</td>
-        <td>Francisco Chang</td>
-        <td>Mexico</td>
-    </tr>
-    <tr>
-        <td>Ernst Handel</td>
-        <td>Roland Mendel</td>
-        <td>Austria</td>
-    </tr>
-    <tr>
-        <td>Island Trading</td>
-        <td>Helen Bennett</td>
-        <td>UK</td>
-    </tr>
-    <tr>
-        <td>Laughing Bacchus Winecellars</td>
-        <td>Yoshi Tannamuri</td>
-        <td>Canada</td>
-    </tr>
-    <tr>
-        <td>Magazzini Alimentari Riuniti</td>
-        <td>Giovanni Rovelli</td>
-        <td>Italy</td>
-    </tr>
-</table>
-
-<hr>
 <!-- Division -->
+
 <div class="social">
     <p>I may be found on...</p>
     <p>Additionally, I have a profile on...</p>
@@ -150,12 +109,13 @@ HTML</span> with the best of them.</p>
 
 
 <hr>
-<p>The following sentence is a <a id="WinnieLink" href="https://en.wikipedia.org/wiki/Winnie-the-Pooh"
-                                  target="_blank"
-                                  title="Winnie-the-Pooh quote ">quote from Winnie-the-Pooh:</a></p>
+<p>The following sentence is a
+    <a id="WinnieLink" href="https://en.wikipedia.org/wiki/Winnie-the-Pooh" target="_blank"
+       title="Winnie-the-Pooh quote ">quote from Winnie-the-Pooh:</a></p>
 <blockquote cite="https://en.wikipedia.org/wiki/Winnie-the-Pooh">
     <p>Did you ever stop to think, and forget to start again?</p>
 </blockquote>
+
 <p>As A.A. Milne said, <q>Some people talk to animals. Not many listen though. That's
     the problem.</q></p>
 
@@ -242,6 +202,98 @@ HTML</span> with the best of them.</p>
         milk)
     </dd>
 </dl>
+
+<hr>
+
+<p align="center"><img src="img/workplace.jpg" alt="Workplace" usemap="#workmap"></p>
+
+<map name="workmap">
+    <area shape="rect" target="_blank" coords="34,44,270,350" alt="Computer"
+          href="https://en.wikipedia.org/wiki/Personal_computer">
+    <area shape="rect" target="_blank" coords="290,172,333,250" alt="Phone"
+          href="https://en.wikipedia.org/wiki/Mobile_phone">
+    <area shape="circle" target="_blank" coords="337,300,44" alt="Coffee" href="https://en.wikipedia.org/wiki/Coffee">
+</map>
+
+<hr>
+
+<table>
+    <tr>
+        <th>Company</th>
+        <th>Contact</th>
+        <th>Country</th>
+    </tr>
+    <tr>
+        <td>Alfreds Futterkiste</td>
+        <td>Maria Anders</td>
+        <td>Germany</td>
+    </tr>
+    <tr>
+        <td>Centro comercial Moctezuma</td>
+        <td>Francisco Chang</td>
+        <td>Mexico</td>
+    </tr>
+    <tr>
+        <td>Ernst Handel</td>
+        <td>Roland Mendel</td>
+        <td>Austria</td>
+    </tr>
+    <tr>
+        <td>Island Trading</td>
+        <td>Helen Bennett</td>
+        <td>UK</td>
+    </tr>
+    <tr>
+        <td>Laughing Bacchus Winecellars</td>
+        <td>Yoshi Tannamuri</td>
+        <td>Canada</td>
+    </tr>
+    <tr>
+        <td>Magazzini Alimentari Riuniti</td>
+        <td>Giovanni Rovelli</td>
+        <td>Italy</td>
+    </tr>
+</table>
+
+<hr>
+
+<form>
+    <label for="fname">First name: </label>
+    <input type="text" id="fname" name="fname"><br><br>
+    <label for="lname">Last name: </label>
+    <input type="text" id="lname" name="lname"><br>
+
+
+    <p>Choose your favorite Web language:</p>
+
+
+    <input type="radio" id="html" name="fav_language" value="HTML">
+    <label for="html">HTML</label><br>
+    <input type="radio" id="css" name="fav_language" value="CSS">
+    <label for="css">CSS</label><br>
+    <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+    <label for="javascript">JavaScript</label>
+    <br>
+    <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+    <label for="vehicle1"> I have a bike</label><br>
+    <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+    <label for="vehicle2"> I have a car</label><br>
+    <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+    <label for="vehicle3"> I have a boat</label>
+</form>
+<hr>
+
+<p align="center" style="text-align: center; font-size: 1.9rem">Through form to my page</p>
+
+<div align="center">
+    <form action="https://martinjanev.github.io/">
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname" value="Martin"><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname" value="Janev"><br><br>
+        <input type="submit" value="Submit">
+    </form>
+</div>
 
 
 </body>

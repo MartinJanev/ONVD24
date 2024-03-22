@@ -1,7 +1,34 @@
+* {
+    font-family: 'Georgia', 'Arial', sans-serif;
+
+}
+
+#navbar {
+    overflow: hidden;
+    background-color: #333;
+    border-radius: 0.4rem;
+
+}
+
+#navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+}
+
+#navbar a:hover {
+    background-color: #ddd;
+    color: black;
+    transition: 0.5s ease;
+}
+
 hr {
     border: 0;
-    height: 1px;
-    background: #333 linear-gradient(to right, #ccc, #333, #ccc);
+    height: 10px;
+    background: brown;
 }
 
 body {

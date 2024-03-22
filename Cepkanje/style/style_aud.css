@@ -1,26 +1,102 @@
-body div.hotdog p.mustard{
-    color: red;
+* {
+    font-size: 120%;
 }
 
-article {
-    width: 500px;
-    height: 300px;
-    background-color:aqua;
-    color: brown;
-    font-size: xx-large;
-}
-/* id_selector-class_selector-type_selector */
+/*body div.hotdog p.mustard{*/
+/*    color: red;*/
+/*}*/
 
-#main{
+/*article {*/
+/*    width: 150px;*/
+/*    height: 100px;*/
+/*    background-color:aqua;*/
+/*    color: brown;*/
+/*    font-size: medium;*/
+/*}*/
+/*!* id_selector-class_selector-type_selector *!*/
+
+/*#main{*/
+/*    background-color: green;*/
+/*}*/
+
+/*.main{*/
+/*    background-color: yellow;*/
+/*}*/
+
+/*#first article.main >div{*/
+
+/*}*/
+/* 1-1-2*/
+
+li:nth-child(2n){
+    background-color: red;
+}
+
+li:nth-child(odd){
+    background-color: green;
+}
+p:first-child {
+    background-color: blue;
+}
+
+p:last-child {
     background-color: green;
 }
 
-.main{
+p:first-of-type {
+    background-color: lightblue;
+}
+
+/*div p {*/
+/*    background-color: lightblue;*/
+/*}*/
+
+/*div article p {*/
+/*    background-color: lightgreen;*/
+/*}*/
+
+/*h2 ~ p {*/
+/*    background-color: lightcoral;*/
+/*}*/
+
+/*h2 + p {*/
+/*    background-color: green;*/
+/*}*/
+
+a[href="www.google.com"] {
+    background-color: red;
+}
+
+a[href^="www"] {
     background-color: yellow;
 }
 
-#first article.main >div{
+a[href$="com"] {
+    background-color: lightcyan;
+}
+
+a:link {
+    background-color: yellow;
+}
+
+.google-link:link {
 
 }
 
-/* 1-1-2*/
+.google-link:visited {
+    background-color: green;
+}
+
+.google-link:hover {
+    background-color: black;
+    color: white;
+}
+
+.google-link:active {
+    background-color: blue;
+}
+
+input:focus {
+    outline: 7px green solid;
+}
+
