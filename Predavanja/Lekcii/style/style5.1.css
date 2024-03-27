@@ -1,0 +1,22 @@
+.tabela table {
+    border-collapse: collapse;
+}
+
+.tabela th, .tabela td {
+    border: 1px solid #c6c7cc;
+    padding: 5px 5px;
+}
+.tabela th {
+    font-weight: bold;
+}
+
+.tabla table{
+    border-collapse: separate;
+    border-spacing: 4px;
+}
+.tabla table, .tabla th, .tabla td{
+    border: 1px solid #cecfd5;
+}
+.tabla th, .tabla td{
+    padding: 10px 15px;
+}

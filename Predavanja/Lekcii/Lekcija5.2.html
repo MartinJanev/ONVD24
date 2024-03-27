@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lekcija5.2</title>
+</head>
+<body>
+<form action="http://www.example.com/subscribe.php" method="get">
+    <p>This is where the form controls will appear.</p>
+</form>
+<hr>
+<form action="http://www.example.com/login.php">
+    <p>Username:
+        <label>
+            <input type="text" name="username" size="15"
+                   maxlength="30"/>
+        </label>
+    </p>
+    <p>Password:
+        <label>
+            <input type="password" name="password"
+                   size="15" maxlength="30"/>
+        </label>
+    </p>
+</form>
+
+<form action="http://www.example.com/comments.php">
+    <p> What did you think of this gig? </p>
+    <textarea name="comments" cols="80" rows="4">
+Enter your comments...
+</textarea>
+</form>
+
+<hr>
+
+<form action="http://www.example.com/profile.php">
+    <p> Please select your favorite genre: </br>
+        <input type="radio" name="genre" value="rock"
+               checked="checked"/> Rock
+        <input type="radio" name="genre" value="pop"/> Pop
+        <input type="radio" name="genre" value="jazz"/> Jazz
+    </p>
+    <p> Please select your favorite music service(s): </br>
+        <input type="checkbox" name="service" value="itunes"
+               checked="checked"/> iTunes
+        <input type="checkbox" name="service" value=”lastfm”/> Last.fm
+        <input type="checkbox" name="service" value=”spotify”/> Spotify
+    </p>
+</form>
+
+<hr>
+<form action="http://www.example.com/profile.php">
+    <p> What device do you listen to music on? </p>
+    <select name="devices">
+        <option value="ipod">iPod</option>
+        <option value="radio">Radio</option>
+        <option value="computer">Computer</option>
+    </select>
+</form>
+
+<hr>
+<form action="http://www.example.com/profile.php" method=“post”>
+    <p>Upload your song in MP3 format:</p>
+    <input type="file" name="user-song"/><br><br>
+    <input type="submit" value="Upload"/>
+</form>
+
+<hr>
+<form action="http://www.example.com/subscribe.php">
+    <p>Subscribe to our email list:</p>
+    <input type="text" name="email"/>
+    <input type="submit" name="subscribe" value=" Subscribe"/>
+</form>
+<form action="http://www.example.org/subscribe.php">
+    <p>Subscribe to our email list:</p>
+    <input type="text" name="email"/>
+    <input height="20" src="images/1542383098_Gruevski.jpg" type="image" width="100"/>
+</form>
+
+<hr>
+<form action="http://www.example.com/add.php">
+    <button><img src="images/add.gif" alt="majmun"/> Add</button>
+    <input type="hidden" name="bookmark" value="lyrics"/>
+</form>
+
+<hr>
+
+<form action="http://www.example.com/bookings/" method="post">
+    <label for="username">Departure date:</label>
+    <input type="date" name="depart"/>
+    <input type="submit" value="Submit"/>
+</form>
+
+<hr>
+
+<label>Age: <input type="text" name="age"/></label>
+<br/>
+Gender:
+<input id="female" type="radio" name="gender" value="f">
+<label for="female">Female</label>
+<input id="male" type="radio" name="gender" value=" m">
+<label for="male">Male</label>
+
+<hr>
+
+<fieldset>
+    <legend>Contact details</legend>
+    <label>Email:<br/><input type="text" name="email"/></label><br/>
+    <label>Mobile:<br/><input type="text" name="mobile"/></label><br/>
+    <label>Telephone:<br/><input type="text" name="telephone"/></label>
+</fieldset>
+
+<hr>
+<form action="http://www.example.com/login.php">
+    <label>
+        Username
+        <input type="text" name="username" disabled>
+    </label></br>
+    <label>
+        Email Address
+        <input type="email" name="email-address" placeholder="name@domain.com"></label>
+</form>
+</body>
+</html>

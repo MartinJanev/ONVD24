@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>P5</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        #div1 {
+            background: yellow;
+        }
+
+        /*#div2 {*/
+        /*    background: brown;*/
+        /*    position: static;*/
+        /*    overflow: auto;*/
+        /*}*/
+
+        /*#div2 div {*/
+        /*    float: left;*/
+        /*    background: red;*/
+        /*    margin: 10px;*/
+        /*}*/
+
+        #div2:before, #div2:after {
+            content: "";
+            display: table;
+        }
+
+        #div2:after {
+            clear: both;
+        }
+
+        #div3 {
+            z-index: 1;
+            background: lightblue;
+            top: 10px;
+            left: 10px;
+            position: absolute;
+        }
+
+        #div4 {
+            background: pink;
+            top: 20px;
+            left: 20px;
+            position: absolute;
+        }
+
+        #div6 {
+            background: brown;
+            top: 30px;
+            left: 30px;
+            position: absolute;
+        }
+
+
+        #div5 {
+            background: orange;
+        }
+
+        #div7 {
+            background: bisque;
+        }
+
+        figure {
+            float: right;
+            clear: right;
+        }
+
+        span {
+            float: left;
+            font-size: 40px
+        }
+
+
+        #div11 {
+            float: left;
+            width: 50%;
+            background-color: green;
+        }
+
+        #div12 {
+            float: left;
+            width: 50%;
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+<h2>position: static;</h2>
+<p>An element with position: static; is not positioned in any special way; it is
+    always positioned according to the normal flow of the page:</p>
+<div class="static">
+    This div element has position: static;
+</div>
+
+
+<div id="div1"><h2>div1</h2></div>
+<div id="div7">
+    <div id="div2">
+        <p style="color: white">div2</p>
+        <div id="div3"><p>div3</p></div>
+        <div id="div4"><p>div4 </p></div>
+        <div id="div6"><p>div6 </p></div>
+    </div>
+</div>
+
+<div id="div5"><p>div5</p></div>
+
+
+<hr>
+<!--<div>-->
+<!--<figure>-->
+<!--    <img src="1542383098_Gruevski.jpg" height="110" width="195" alt="Glujo"/>-->
+<!--    <figcaption>Gruevski</figcaption>-->
+<!--</figure>-->
+<!--<figure>-->
+<!--    <img src="1542383098_Gruevski.jpg" height="110" width="195" alt="Glujo"/>-->
+<!--    <figcaption>Gruevski</figcaption>-->
+<!--</figure>-->
+<!--<figure>-->
+<!--    <img src="1542383098_Gruevski.jpg" height="110" width="195" alt="Glujo"/>-->
+<!--    <figcaption>Gruevski</figcaption>-->
+
+<!--</figure>-->
+<!--</div>-->
+<br>
+
+<!--<p><span>L</span>orem ipsum lalalalallalalallalalalal</p>-->
+
+
+<div id="div11">div 1 sdassdsadsadasdsadasdas</div>
+<div id="div12">div 2</div>
+</body>
+</html>
+

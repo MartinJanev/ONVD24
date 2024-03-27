@@ -1,0 +1,48 @@
+* {
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: beige;
+}
+
+#FINKI {
+    color: rgb(0, 0, 255);
+    font-weight: bold;
+    font-size: 2em;
+    text-align: center;
+}
+
+#FINKI:hover {
+    color: red;
+}
+
+.tagline {
+    color: rgb(255, 0, 0);
+    font-style: italic;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+#intro {
+    border: 3px dotted green;
+    border-radius: 35px;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    background-position: 0 50%;
+    background-repeat: no-repeat;
+    color: #0087cc;
+    padding-left: 22px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ff7b29;
+}
