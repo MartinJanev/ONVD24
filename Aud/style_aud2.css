@@ -1,0 +1,47 @@
+li:nth-child(3n) {
+    color: red;
+}
+
+div:empty {
+    color: #000;
+}
+
+:not(div) /* se sto ne e e div da se selektira
+*/
+    /* p:not(.class) ako sakame da selektirame se ona sto ne e vo klasata .class */
+a:after {
+    color: #9799a7;
+    content: " (" attr(href) ")";
+    font-size: 11px;
+}
+
+.test_div {
+    width: 400px;
+    height: 400px;
+    background-color: aquamarine;
+
+    /* margin: 10px;
+    padding: 10px;
+    border: 2px solid black; */
+
+
+    margin: 10px 20px 30px 40px;
+    /* padding: 10px;*/
+    /*padding: 10px 20px 30px 40px;
+    /*border:6px solid #945999;*/
+    border: 2px dashed black;
+
+    padding: 30px;
+    box-sizing: border-box;
+
+
+}
+
+/*  sirina i visina 400px
+    margina 2*20px
+    padding 2*10px
+    border 2*2px
+-------------------
+    400px + 2*20px + 2*2px + 2*10px = 400px + 40px + 4px + 20px = 464px sirina
+    400px + 2*20px + 2*2px + 2*10px = 400px + 40px + 4px + 20px = 464px visina
+ */

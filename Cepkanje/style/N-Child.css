@@ -1,0 +1,27 @@
+li:nth-child(2n) {
+    background-color: cyan;
+}
+
+li:nth-child(4n-6) {
+    background-color: yellow;
+}
+
+li:nth-child(-5n+52) {
+    background-color: red;
+}
+
+li:nth-child(2n+3) {
+    background-color: lightgreen;
+}
+
+li:nth-last-child(4n) {
+    background-color: lightblue;
+}
+
+p:nth-of-type(2n) {
+    background-color: #80a0f0;
+}
+
+p:nth-last-of-type(4n-6) {
+    background-color: lightgoldenrodyellow;
+}

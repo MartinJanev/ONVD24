@@ -1,0 +1,27 @@
+li:first-child {
+    color: red;
+}
+
+li:last-child {
+    color: blue;
+}
+
+div:only-child {
+    color: green;
+}
+
+p:first-of-type {
+    background-color: red;
+    color: white;
+    padding: 0.2rem 0.2rem 0.2rem 0.4rem;
+}
+
+p:last-of-type {
+    background-color: blue;
+    color: white;
+    padding: 0.2rem 0.4rem 0.2rem 0.2rem;
+}
+
+img:only-of-type {
+    border: 4px dashed green;
+}
