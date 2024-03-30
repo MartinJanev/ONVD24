@@ -1,0 +1,78 @@
+li {
+    list-style-type: none;
+}
+
+/* Parent propertiess */
+/*.flex-container {*/
+/*    padding: 0;*/
+/*    background-color: #9f4dee;*/
+/*    border: 4px solid black;*/
+/*    border-radius: 3rem;*/
+/*    height: 600px;*/
+/*    font-size: 200%;*/
+
+/*    display: flex; !* flex or inline-flex *!*/
+/*    flex-direction: row; !* row or column, row-reverse or column-reverse *!*/
+/*    flex-wrap: wrap; !* wrap, nowrap or wrap-reverse *!*/
+
+/*    !* flex-flow: row nowrap; !* or column wrap-reverse *!*/
+/*    !* gornoto e za 2 vo 1*!*/
+
+/*    justify-content: center;*/
+/*    !* flex-start, flex-end, center, space-between, space-around or space-evenly *!*/
+/*    align-items: flex-end; !* flex-start, flex-end, center, baseline or stretch *!*/
+/*    align-content: center; !* flex-start, flex-end, center, space-between, space-around or stretch *!*/
+/*}*/
+
+/* Child properties */
+/*.flex-item {*/
+/*    background-color: #ffa902;*/
+/*    width: 50px;*/
+/*    height: 50px;*/
+/*    margin: 10px;*/
+/*    line-height: 100px;*/
+/*    color: white;*/
+/*    border: 4px solid black;*/
+/*    border-radius: 1.3rem;*/
+/*    font-size: 1.5em;*/
+/*    text-align: center;*/
+/*    order: 3; !* default is 0 *!*/
+/*    flex-grow: 0; !* default is 0 *!*/
+/*    flex-shrink: 0; !* default is 1 *!*/
+/*    flex-basis: auto; !* default is auto *!*/
+
+/*    !* flex: 1 0 auto; !* flex-grow, flex-shrink, flex-basis *!*/
+/*    !* 3 vo 1 *!*/
+/*    align-self: flex-end; !* flex-start, flex-end, center, baseline or stretch *!*/
+/*}*/
+
+
+.flex-container {
+    background-color: #9f4dee;
+    border: 4px solid black;
+    border-radius: 2rem;
+    padding: 15px;
+    margin: 0;
+    list-style: none;
+
+    display: flex;
+
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.flex-item {
+    background: tomato;
+    padding: 5px;
+    width: 200px;
+    height: 150px;
+    margin: 10px;
+    border: 4px solid black;
+    border-radius: 1.3rem;
+
+    line-height: 150px;
+    color: white;
+    font-weight: bold;
+    font-size: 3em;
+    text-align: center;
+}
