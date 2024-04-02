@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+</head>
+<body style="width: 500px">
+<fieldset class="Details" style="width: auto">
+    <legend>Your Details:</legend>
+    <label>Name:</label>
+    <input type="text" name="name"><br>
+    <label>Email:</label>
+    <input type="text" name="email">
+</fieldset>
+<br>
+<fieldset class="Review">
+    <legend>Your Review:</legend>
+    <p>How did you hear about us?
+        <select name="hear">
+            <option value="google">Google</option>
+            <option value="friend">Friend</option>
+            <option value="advert">Advert</option>
+            <option value="other">Other</option>
+        </select>
+    </p>
+    <p>Would you visit again?<br>
+        <input type="radio" name="yes" value="yes" checked="checked">Yes
+        <input type="radio" name="no" value="no">No
+        <input type="radio" name="no" value="maybe">Maybe
+    </p>
+    <p>Comments:<br>
+        <textarea name="comments" rows="4" cols="40"></textarea>
+    </p>
+    <input type="checkbox" name="signup" value="yes" checked="checked">Sign me up email updates<br>
+    <input type="submit" value="Submit review" id="submit">
+</fieldset>
+</body>
+</html>

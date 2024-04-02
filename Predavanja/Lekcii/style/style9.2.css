@@ -1,0 +1,106 @@
+h1.goreLevo, h1.goreDesno, h1.doluLevo, h1.doluDesno {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    position: absolute;
+    z-index: 100;
+}
+
+h1.goreLevo, h1.goreDesno {
+    top: 50px;
+}
+
+h1.doluLevo, h1.doluDesno {
+    bottom: 50px;
+}
+
+h1.goreLevo, h1.doluLevo {
+    left: 50px;
+}
+
+h1.goreDesno, h1.doluDesno {
+    right: 50px;
+}
+
+
+#div-before, #div-after {
+    color: black;
+    background-color: #a98ce5;
+}
+
+#div-1, #div-1a, #div-1b, #div-1c {
+    color: white;
+
+}
+
+#div-1 {
+    background-color: black;
+    position: relative;
+    height: 250px;
+
+}
+
+#div-1a {
+    background-color: red;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 200px;
+}
+
+#div-1b {
+    background-color: darkgreen;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200px;
+}
+
+#div-1c {
+    background-color: blue;
+}
+
+code {
+    background: #2db34a;
+    border-radius: 6px;
+    color: #fff;
+    display: block;
+    font: 14px/24px "Source Code Pro", Inconsolata, "Lucida Console", Terminal, "Courier New", Courier;
+    padding: 24px 15px;
+    text-align: center;
+}
+
+header,
+section,
+aside,
+footer {
+    margin: 0 1.5% 24px 1.5%;
+}
+
+section {
+    float: left;
+    width: 63%;
+}
+
+aside {
+    float: right;
+    width: 30%;
+}
+
+footer {
+    clear: both;
+    margin-bottom: 0;
+}
+
+span.note {
+    float: right;
+    width: 200px;
+    margin: 20px;
+    background-color: #999;
+    font-weight: bold;
+}
+
+.example {
+    border: solid 2px #666;
+    padding: 30px;
+}
