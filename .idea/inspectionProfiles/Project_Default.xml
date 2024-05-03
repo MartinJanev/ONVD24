@@ -6,9 +6,10 @@
       <option name="myIgnoreVendorSpecificProperties" value="true" />
       <option name="myCustomPropertiesList">
         <value>
-          <list size="2">
+          <list size="3">
             <item index="0" class="java.lang.String" itemvalue="style" />
             <item index="1" class="java.lang.String" itemvalue="text-weight" />
+            <item index="2" class="java.lang.String" itemvalue="tetx-decoration" />
           </list>
         </value>
       </option>
@@ -29,6 +30,7 @@
       </option>
       <option name="myCustomValuesEnabled" value="true" />
     </inspection_tool>
+    <inspection_tool class="HtmlUnknownTarget" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="XmlDeprecatedElement" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="XmlDuplicatedId" enabled="false" level="ERROR" enabled_by_default="false" />
   </profile>

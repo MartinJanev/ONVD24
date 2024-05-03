@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Typography</title>
+    <style>
+        p {
+            color: blue;
+            font-family: "Times New Roman", Helvetica, Arial, sans-serif;
+            /* serif - ukrasen font - polesno se cita na pecatena hartija
+            sans-serif - bez ukrasa - polesno se vitaat na kompjuter i slicno*/
+
+
+            /*color: rgb(255, 0, 0);*/ /* rgb notacija */
+            /*color: #ff0000;*/ /* hex notacija */
+            /*color: hsl(0, 100%, 50%);*/ /* hsl notacija */
+
+            font-size: 25px;
+            font-style: italic;
+            /*font-variant: small-caps;*/
+            font-weight: bold; /* 100 do 900 normal-400 bold-700 */
+            line-height: 20px;
+
+            /* 2 kolokvium teroija 10 prakticni prasanja - koi od slednive ke go napravi svojstvoto -> ova line height najvekje se mesa
+            */
+
+            /* se moze so komandata font*/
+            /* font:    italic     small-caps  bold     25px    /20px      "Times New Roman", Helvetica, Arial, sans-serif;*/
+            /*          style      variant    weight    size  line-height  family*/
+            /* ------------------------------- */
+
+            /* text-align */
+
+            text-align: center;
+            text-decoration: underline; /* underline, overline, line-through */
+            text-indent: 20px; /* vovlekuvanje na prvata linija na tekkstot */
+            text-shadow: 2px 5px 10px black; /* obraten y- koordinaten sistem -> 4 vrednosti: x-offset y-offset blur-radius color */
+            /* stalno se pagja na prakticen text-transform */
+            text-transform: capitalize; /* uppercase, lowercase, capitalize */
+            /*letter-spacing: -2px; mesto medju bukvite*/
+            /*word-spacing: -0.2em; mesto megju zborovite*/
+
+            /* web safe fontoci*/
+
+            @font-face {
+                font-family: "MyFont";
+                /*src: url("myfont.ttf");*/
+            }
+        }
+    </style>
+</head>
+<body>
+<p>
+    Dodavanje boja
+</p>
+
+<p>Steve Jobs once said <q>Lorem ipsum</q></p>
+
+<hr>
+
+<p>utroque patrioque saperet principes conubia utroque eam sea lectus aliquam theophrastus nihil conceptam tempor
+    volutpat persecuti saepe ligula dico honestatis</p>
+
+</body>
+</html>

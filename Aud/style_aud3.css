@@ -1,0 +1,53 @@
+img {
+    float: right;
+}
+
+/*.first {*/
+/*    width: 150px;*/
+/*    border: 1px solid black;*/
+/*    float: left;*/
+/*}*/
+
+/*.second {*/
+/*    width: 150px;*/
+/*    border: 1px solid black;*/
+/*    float: right;*/
+/*}*/
+
+/*.third {*/
+/*    border: 1px solid black;*/
+/*    clear: both;*/
+/*}*/
+
+/*div {*/
+/*    border: 1px solid black;*/
+/*    !*width: 150px;*!*/
+/*    !*display: inline-block;*!*/
+/*}*/
+.container{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+section {
+    border: 1px solid green;
+    width: 50px;
+    flex-basis: 50px;
+    /*position: relative;*/
+    /* mozam da pravam positon relativno na pozicijata od inicijalnata pozicija */
+/*    left: 25px;*/
+/*    top: 20px;*/
+
+/*    !*position: absolute;*!*/
+/*    !* poziconira vo odnos na prviot absolute pozicioniran predok - roditelot. ako ne se pozicionira vo odnos na body *!*/
+
+/*    !*position: fixed;*!*/
+/*!*   pozicionira vo odnos na viewportot, se dvizi so scroll *!*/
+
+/*    position: sticky;*/
+
+}
+
+/*span {*/
+/*    width: 150px; !*ne raboti*!*/
+/*}*/

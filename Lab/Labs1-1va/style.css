@@ -1,0 +1,89 @@
+body {
+    font-family: "Helvetica", Times, serif;
+    margin: 0;
+}
+
+header {
+    display: inline-block;
+    text-align: center;
+    background-color: #3b3b3b;
+    color: white;
+    width: 100%;
+}
+
+.body {
+    padding: 5px 90px;
+    background-color: #e5e5e5;
+}
+
+.body div {
+    margin: 10px;
+    border-radius: 7px;
+    background: white;
+    padding: 5px;
+    font-size: 9px;
+}
+
+h2 {
+    color: mediumblue;
+}
+
+.course {
+    border: 3px solid forestgreen;
+}
+
+.course ol {
+    margin: 5px 0 5px 5px;
+    padding: 10px;
+    padding-right: 0;
+    background-color: lightgrey;
+}
+
+.course ol ol {
+    padding: 0;
+}
+
+.course ol ol li {
+    background-color: lightblue;
+    margin: 4px;
+    padding: 5px;
+}
+
+.instructor {
+    margin: 10px;
+}
+
+#frame {
+    margin: 2px;
+    border: 2px solid green;
+    border-radius: 0px;
+}
+
+.instructor img {
+    padding: 8px;
+    width: 150px;
+}
+
+.htmlcss img {
+    width: 200px;
+    display: block;
+    margin: 0 auto;
+}
+
+.courier {
+    font-family: "Courier New", Courier, monospace;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+#redHTML {
+    color: red;
+    text-decoration: underline;
+}
+
+#blueCSS {
+    color: blue;
+    font-style: italic;
+}

@@ -1,0 +1,30 @@
+* {
+    font-family: 'Arial', sans-serif;
+}
+
+img{
+    width:400px;
+    height: auto;
+}
+
+.maths{
+    border-radius: 90px;
+    border: 9px dotted black;
+}
+
+.description {
+    display: block;
+    background: black;
+    padding: 2px;
+}
+
+.description #blue{
+    background: blue;
+    color: darkred;
+    margin: 5px;
+}
+
+.description #orange {
+    background: orange;
+    color: #28ffff;
+}

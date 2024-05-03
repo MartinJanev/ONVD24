@@ -23,6 +23,40 @@ h1 {
     color: green;
 }
 
-.ikonostas{
+.ikonostas {
     background-color: green;
+}
+
+header {
+    background-color: lightblue;
+}
+
+aside {
+    background-color: lightgreen;
+}
+
+main {
+    background-color: lightcoral;
+}
+
+#main {
+    display: flex;
+    height: 400px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: stretch;
+    /* glavna cel na flexbox e da se iskoristi sirocinata
+
+    /*flex-wrap: wrap;*/
+    /*flex-direction: row;*/
+    /*grid-template-columns: auto auto auto;*/
+    /*grid-template-rows: auto auto auto auto;*/
+    /*grid-gap: 5px;*/
+    /*grid-template-areas:*/
+    /*". . . ."*/
+    /*". . . ."*/
+    /*". . . ."*/
+    /*". . . .";*/
+    /*grid-row ili grid-column - start i end*/
+    /* ako koristime isto ime za grid-template-areas, mora da se vo ist red ili kolona */
 }

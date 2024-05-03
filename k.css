@@ -1,0 +1,47 @@
+/** {*/
+/*    !*padding: 0px 300px;*!*/
+/*}*/
+
+article > div{
+    text-decoration: none;
+    color: red;
+}
+
+/*a:first-child{*/
+/*    text-decoration: none;*/
+/*    color: red;*/
+/*}*/
+
+
+/*.tabela a:nth-child(2n){*/
+/*    text-decoration: none;*/
+/*    color: red;}*/
+
+/*strong{*/
+/*color: red;*/
+/*}*/
+/*p{*/
+/*    text-indent: -2em;*/
+/*}*/
+/*.table .a{*/
+/*    text-decoration: none;*/
+/*    background-color: red;*/
+/*}*/
+/*#lresourses li{*/
+/*    font-size:400%;*/
+/*    list-style-image: url("letter-l.png");*/
+/*}*/
+
+/*a[open$="se"] {*/
+/*    text-decoration: none;*/
+/*    color: red;*/
+/*}*/
+
+/*span{*/
+/*    background-color: red;*/
+
+/*}*/
+
+/*h2 ~ p {*/
+/*    background-color: deepskyblue;*/
+/*}*/
